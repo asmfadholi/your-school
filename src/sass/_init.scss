@@ -1,0 +1,20 @@
+// variables
+@import './variables/variables.scss';
+// base
+@import './base/padding.scss';
+@import './base/margin.scss';
+@import './base/mixins.scss';
+@import './base/typography.scss';
+@import './base/font.scss';
+@import './base/border.scss';
+@import './base/size.scss';
+@import './base/colors.scss';
+// font google apis
+@import '@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+// Components
+// Views
+body {
+    height: 100vh;
+    background: $white-basic-color;
+}
