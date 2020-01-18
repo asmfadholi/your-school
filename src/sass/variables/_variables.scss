@@ -6,13 +6,15 @@ $orange-basic-color: #dd9933;
 $yellow-basic-color:#f1c40f;
 $white-basic-color: #fff;
 $black-basic-color: #000000;
+$grey-basic-color: #777;
 // color list
 $colors: ( // green
 green: $green-basic-color, // green
-blue: $blue-basic-color, // blue
+grey: $grey-basic-color, // grey
+blue:$blue-basic-color, // blue
 red: $red-basic-color, // red
 orange: $orange-basic-color, // orange
 yellow: $yellow-basic-color, // yellow
-white: $brown-basic-color, // white
-black: $brownish-grey-basic-color, // black
+white: $white-basic-color, // white
+black: $black-basic-color, // black
 );

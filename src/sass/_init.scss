@@ -10,9 +10,9 @@
 @import './base/size.scss';
 @import './base/colors.scss';
 // font google apis
-@import '@fortawesome/fontawesome-free/css/all.css';
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 // Components
+@import './components/Navbar.scss';
 // Views
 body {
     height: 100vh;

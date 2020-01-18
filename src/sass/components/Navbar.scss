@@ -1,0 +1,45 @@
+.navbar-section-page {
+    .navbar {
+        padding: 20px;
+        background-color: transparent;
+    }
+    .navbar-start {
+        margin-right: unset;
+        margin-left: auto !important;
+        .navbar-item {
+            font-weight: 600;
+            height: 50px;
+            span {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            i {
+                font-size: 20px;
+                &:before {
+                    top: 13px;
+                    left: 13px;
+                    position: relative;
+                }
+            }
+            &:hover {
+                transition: color 0.2s ease;
+                color: $orange-basic-color;
+                background: unset;
+            }
+        }
+    }
+    .navbar-end {
+        .navbar-item {
+            i {
+                font-size: 24px;
+                cursor: pointer;
+                &:hover {
+                    color: $blue-basic-color;
+                    transition: color 0.3s ease;
+                }
+            }
+        }
+    }
+}
